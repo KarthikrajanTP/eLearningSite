@@ -1,0 +1,80 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 26 07:14:54 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+cannot setgid() as non-root user
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 26 07:15:04 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+cannot setgid() as non-root user
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 26 07:15:12 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+cannot setgid() as non-root user
+*** Starting uWSGI 2.0.24-debian (64bit) on [Fri Jul 26 07:16:07 2024] ***
+compiled with version: 13.2.0 on 17 April 2024 16:23:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /usr/bin/uwsgi-core
+uWSGI running as root, you can use --uid/--gid/--chroot options
+setgid() to 1000
+set additional group 4 (adm)
+set additional group 24 (cdrom)
+set additional group 27 (sudo)
+set additional group 30 (dip)
+setuid() to 1000
+chdir() to /home/karthik/eLearningSite/educa
+chdir(): Permission denied [core/uwsgi.c line 2628]
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 26 07:16:15 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+cannot setgid() as non-root user
+*** Starting uWSGI 2.0.26 (64bit) on [Fri Jul 26 07:23:48 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+cannot setgid() as non-root user
