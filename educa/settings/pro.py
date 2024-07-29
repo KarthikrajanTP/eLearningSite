@@ -1,21 +1,22 @@
 from .base import *
 
-DEBUG = False
+DEBUG = True
 
-ADMINS = (
- ('Antonio M', 'email@mydomain.com'),
-)
-ALLOWED_HOSTS = ['127.0.0.1:8000','educaproject.com', 'www.educaproject.com']
+ALLOWED_HOSTS = ['educaproject.com', 'www.educaproject.com']
 
 DATABASES = {
-   'default': {
-       'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'educa',
-       'USER': 'educa',
-       'PASSWORD': 'admin',
-   }
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'educa',
+        'USER': 'educa',
+        'PASSWORD': 'admin',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
 
-# # SSL config
-# SECURE_SSL_REDIRECT = True
-# CSRF_COOKIE_SECURE = True
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+# Uncomment if using HTTPS
+SECURE_SSL_REDIRECT = True
+CSRF_COOKIE_SECURE = True

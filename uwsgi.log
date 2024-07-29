@@ -78,3 +78,644 @@ current working directory: /home/karthik/eLearningSite/educa
 writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
 detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
 cannot setgid() as non-root user
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:37:43 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38783 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8bc6eb80f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8bc6eb80f8 pid: 84222 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84222)
+spawned uWSGI worker 1 (pid: 84223, cores: 1)
+spawned uWSGI http 1 (pid: 84224)
+[pid: 84223|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 1027 bytes} [Mon Jul 29 10:38:11 2024] GET / => generated 143 bytes in 239 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:11 2024] GET /favicon.ico => generated 143 bytes in 16 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1057 bytes} [Mon Jul 29 10:38:12 2024] GET / => generated 143 bytes in 18 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 958 bytes} [Mon Jul 29 10:38:12 2024] GET /favicon.ico => generated 143 bytes in 15 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1057 bytes} [Mon Jul 29 10:38:13 2024] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:13 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 7/7] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:13 2024] GET / => generated 143 bytes in 13 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:13 2024] GET /favicon.ico => generated 143 bytes in 28 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 9/9] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:13 2024] GET / => generated 143 bytes in 21 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:13 2024] GET /favicon.ico => generated 143 bytes in 15 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 11/11] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:13 2024] GET / => generated 143 bytes in 24 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:14 2024] GET /favicon.ico => generated 143 bytes in 79 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 13/13] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:14 2024] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:14 2024] GET /favicon.ico => generated 143 bytes in 12 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 15/15] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:14 2024] GET / => generated 143 bytes in 22 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:14 2024] GET /favicon.ico => generated 143 bytes in 11 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 17/17] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:14 2024] GET / => generated 143 bytes in 17 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:14 2024] GET /favicon.ico => generated 143 bytes in 15 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 19/19] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:38:14 2024] GET / => generated 143 bytes in 19 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84223|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:38:14 2024] GET /favicon.ico => generated 143 bytes in 15 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 84224)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:40:16 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45101 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb54c8030f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb54c8030f8 pid: 84498 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84498)
+spawned uWSGI worker 1 (pid: 84499, cores: 1)
+spawned uWSGI http 1 (pid: 84500)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 84500)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:40:33 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43723 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc888e680f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc888e680f8 pid: 84596 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84596)
+spawned uWSGI worker 1 (pid: 84597, cores: 1)
+spawned uWSGI http 1 (pid: 84598)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 84598)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:41:06 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45041 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f7188ebe0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f7188ebe0f8 pid: 84856 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84856)
+spawned uWSGI worker 1 (pid: 84857, cores: 1)
+spawned uWSGI http 1 (pid: 84858)
+[pid: 84857|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:41:17 2024] GET / => generated 143 bytes in 135 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:41:17 2024] GET /favicon.ico => generated 143 bytes in 14 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:41:17 2024] GET / => generated 143 bytes in 15 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:41:17 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:41:17 2024] GET / => generated 143 bytes in 18 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 958 bytes} [Mon Jul 29 10:41:17 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 7/7] 127.0.0.1 () {52 vars in 1026 bytes} [Mon Jul 29 10:41:46 2024] GET / => generated 143 bytes in 31 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 84857|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 958 bytes} [Mon Jul 29 10:41:46 2024] GET /favicon.ico => generated 143 bytes in 20 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 84858)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:44:48 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36433 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb27908f0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb27908f0f8 pid: 85284 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 85284)
+spawned uWSGI worker 1 (pid: 85285, cores: 1)
+spawned uWSGI http 1 (pid: 85286)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 85286)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:45:33 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38827 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9e5530d0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9e5530d0f8 pid: 85611 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 85611)
+spawned uWSGI worker 1 (pid: 85621, cores: 1)
+spawned uWSGI http 1 (pid: 85622)
+[pid: 85621|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 853 bytes} [Mon Jul 29 10:45:38 2024] GET /?vscodeBrowserReqId=1722249938166 => generated 143 bytes in 179 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 85621|app: 0|req: 2/2] 127.0.0.1 () {52 vars in 1027 bytes} [Mon Jul 29 10:45:45 2024] GET / => generated 143 bytes in 27 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+[pid: 85621|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:45:45 2024] GET /favicon.ico => generated 143 bytes in 29 msecs (HTTP/1.1 400) 3 headers in 116 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 85622)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:49:18 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:44711 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f505bfa70f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f505bfa70f8 pid: 86082 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 86082)
+spawned uWSGI worker 1 (pid: 86086, cores: 1)
+spawned uWSGI http 1 (pid: 86087)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 86087)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:50:22 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:42969 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd6436f60f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fd6436f60f8 pid: 86221 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 86221)
+spawned uWSGI worker 1 (pid: 86229, cores: 1)
+spawned uWSGI http 1 (pid: 86230)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 86229|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:50:26 2024] GET / => generated 60642 bytes in 181 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 86229|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:50:26 2024] GET /favicon.ico => generated 60452 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 86229|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:51:03 2024] GET / => generated 60642 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 86229|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:51:03 2024] GET /favicon.ico => generated 60452 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 86229|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:51:02 2024] GET / => generated 60642 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 86229|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:51:03 2024] GET /favicon.ico => generated 60452 bytes in 96 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 86230)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:51:10 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:38189 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb7ea08c0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb7ea08c0f8 pid: 86413 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 86413)
+spawned uWSGI worker 1 (pid: 86417, cores: 1)
+spawned uWSGI http 1 (pid: 86418)
+[pid: 86417|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1057 bytes} [Mon Jul 29 10:51:13 2024] GET / => generated 0 bytes in 6 msecs (HTTP/1.1 301) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 86417|app: 0|req: 2/2] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:51:16 2024] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 172 bytes (1 switches on core 0)
+[pid: 86417|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:51:17 2024] GET / => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 172 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 86418)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:52:52 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:46275 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f11504590f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f11504590f8 pid: 86640 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 86640)
+spawned uWSGI worker 1 (pid: 86645, cores: 1)
+spawned uWSGI http 1 (pid: 86646)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 86646)
+worker 1 buried after 0 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:54:49 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:33615 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa1900bc0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa1900bc0f8 pid: 86962 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 86962)
+spawned uWSGI worker 1 (pid: 86963, cores: 1)
+spawned uWSGI http 1 (pid: 86964)
+[pid: 86963|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:06 2024] GET / => generated 143 bytes in 128 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:06 2024] GET /favicon.ico => generated 143 bytes in 15 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:07 2024] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:07 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:07 2024] GET / => generated 143 bytes in 17 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:07 2024] GET /favicon.ico => generated 143 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 7/7] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:07 2024] GET / => generated 143 bytes in 20 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:07 2024] GET /favicon.ico => generated 143 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 9/9] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:07 2024] GET / => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:07 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 11/11] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:07 2024] GET / => generated 143 bytes in 19 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:07 2024] GET /favicon.ico => generated 143 bytes in 80 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 13/13] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:08 2024] GET / => generated 143 bytes in 16 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:08 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 15/15] 127.0.0.1 () {52 vars in 1026 bytes} [Mon Jul 29 10:57:13 2024] GET / => generated 143 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 958 bytes} [Mon Jul 29 10:57:13 2024] GET /favicon.ico => generated 143 bytes in 20 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 17/17] 127.0.0.1 () {54 vars in 1057 bytes} [Mon Jul 29 10:57:15 2024] GET / => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 958 bytes} [Mon Jul 29 10:57:15 2024] GET /favicon.ico => generated 143 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 19/19] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:16 2024] GET / => generated 143 bytes in 20 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:16 2024] GET /favicon.ico => generated 143 bytes in 11 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 21/21] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:18 2024] GET / => generated 143 bytes in 20 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:18 2024] GET /favicon.ico => generated 143 bytes in 14 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 23/23] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:33 2024] GET / => generated 143 bytes in 20 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:33 2024] GET /favicon.ico => generated 143 bytes in 12 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 25/25] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:34 2024] GET / => generated 143 bytes in 18 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+[pid: 86963|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:34 2024] GET /favicon.ico => generated 143 bytes in 13 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 86964)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 10:57:39 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:43891 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f609287e0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f609287e0f8 pid: 87251 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 87251)
+spawned uWSGI worker 1 (pid: 87252, cores: 1)
+spawned uWSGI http 1 (pid: 87253)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 87252|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 10:57:42 2024] GET / => generated 60527 bytes in 141 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 87252|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 10:57:42 2024] GET /favicon.ico => generated 60337 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 87253)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 11:06:59 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:45237 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fab8d1750f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fab8d1750f8 pid: 88022 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 88022)
+spawned uWSGI worker 1 (pid: 88023, cores: 1)
+spawned uWSGI http 1 (pid: 88024)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 1/1] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 11:07:05 2024] GET / => generated 60538 bytes in 131 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88023|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 11:07:05 2024] GET /favicon.ico => generated 60348 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 3/3] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 11:07:07 2024] GET / => generated 60538 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88023|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 11:07:07 2024] GET /favicon.ico => generated 60348 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 5/5] 127.0.0.1 () {54 vars in 1058 bytes} [Mon Jul 29 11:07:26 2024] GET / => generated 60538 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88023|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 11:07:26 2024] GET /favicon.ico => generated 60348 bytes in 88 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 7/7] 127.0.0.1 () {56 vars in 1089 bytes} [Mon Jul 29 11:08:24 2024] GET / => generated 60675 bytes in 81 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 8/8] 127.0.0.1 () {52 vars in 1027 bytes} [Mon Jul 29 11:08:25 2024] GET / => generated 60401 bytes in 107 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88023|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 11:08:25 2024] GET /favicon.ico => generated 60348 bytes in 43 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88023|app: 0|req: 10/10] 127.0.0.1 () {52 vars in 1086 bytes} [Mon Jul 29 11:08:57 2024] GET / => generated 60637 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88023|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 1018 bytes} [Mon Jul 29 11:08:58 2024] GET /favicon.ico => generated 60584 bytes in 43 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 88024)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.26 (64bit) on [Mon Jul 29 11:10:39 2024] ***
+compiled with version: 13.2.0 on 26 July 2024 06:19:48
+os: Linux-5.15.153.1-microsoft-standard-WSL2 #1 SMP Fri Mar 29 23:14:13 UTC 2024
+nodename: DESKTOP-9ISO8RB
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/karthik/eLearningSite/educa
+writing pidfile to /home/karthik/eLearningSite/educa/project-master.pid
+detected binary path: /home/karthik/eLearningSite/educa/.venv/bin/uwsgi
+chdir() to /home/karthik/eLearningSite/educa
+your processes number limit is 15417
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:36549 (port auto-assigned) fd 3
+Python version: 3.11.9 (main, Apr 27 2024, 21:16:11) [GCC 13.2.0]
+PEP 405 virtualenv detected: /home/karthik/eLearningSite/educa/.venv
+Set PythonHome to /home/karthik/eLearningSite/educa/.venv
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9731f2e0f8
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 145840 bytes (142 KB) for 1 cores
+*** Operational MODE: single process ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f9731f2e0f8 pid: 88574 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 88574)
+spawned uWSGI worker 1 (pid: 88578, cores: 1)
+spawned uWSGI http 1 (pid: 88579)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 88578|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 1027 bytes} [Mon Jul 29 11:11:38 2024] GET / => generated 60401 bytes in 288 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 88578|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 959 bytes} [Mon Jul 29 11:11:39 2024] GET /favicon.ico => generated 60348 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 88579)
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
