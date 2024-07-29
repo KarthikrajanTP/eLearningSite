@@ -5,7 +5,7 @@ DEBUG = False
 ADMINS = (
  ('Antonio M', 'email@mydomain.com'),
 )
-ALLOWED_HOSTS = ['educaproject.com', 'www.educaproject.com']
+ALLOWED_HOSTS = ['127.0.0.1:8000','educaproject.com', 'www.educaproject.com']
 
 DATABASES = {
    'default': {
